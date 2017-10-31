@@ -1,0 +1,35 @@
+article{
+    width: 1200px;
+    height: 912px;
+    margin: 0 auto;
+    overflow: hidden;
+    aside{
+        width: 200px;
+        height: 912px;
+        float: left;
+        border-right: 1px solid #e7e7e7;
+        border-left: 1px solid #e7e7e7;
+        a{
+            color: #666666;
+            &:hover{
+                color: white;
+                text-decoration: none;
+            }
+            li{
+                height: 60px;
+                width: 100%;
+                cursor: pointer;
+                text-align: center;
+                line-height: 60px;
+                font-size: 18px;
+                border-bottom: 1px solid #e7e7e7;
+                border-left: 1px solid #e7e7e7;
+                &:hover{
+                    background-color:#35b78f;
+                };
+            }
+        } 
+    }
+}
+
+

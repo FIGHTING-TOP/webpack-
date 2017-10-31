@@ -1,0 +1,39 @@
+#pageGro{ 
+    height:25px; 
+    margin:0px auto;
+    display:inline-block;
+    position:relative;
+    left:10px;
+    top:0;
+    margin-top: -60px;
+}
+#pageGro div{ 
+    font-size:12px; 
+    color:#999; 
+    line-height:23px; 
+    float:left; 
+    margin-left:5px;
+}
+#pageGro .pageUp,#pageGro .pageDown{ 
+    width:50px; 
+    cursor:pointer;
+    color:#35b78f;
+    font-weight: bolder;
+    background-color: white;
+}
+#pageGro .pageUp{
+    margin-right: 10px;
+}
+.pageSelect {
+    position:relative;
+    bottom:10px;
+    width: 100%;
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    margin-top:50px;
+    .evePageSize{
+        font-weight: bolder;
+        margin-right: 550px;
+    }
+ }

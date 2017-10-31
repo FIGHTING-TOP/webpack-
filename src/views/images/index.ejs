@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图片图片图片</title>
+	<link rel="stylesheet" href="https://unpkg.com/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+	<article>
+		<!-- <aside>
+			<% include ../../components/menubar/menubar.ejs %>
+		</aside> -->
+		<div class="images-container" id="imgCont">
+			
+
+			<div class="image-loading" v-if="loading">
+				<div class="loading">
+		            <svg viewBox="25 25 50 50" class="circular">
+		                <circle cx="50" cy="50" r="20" fill="none" class="path"></circle>
+		            </svg>
+		        </div>
+			</div>
+			<div class="page" v-if="parm.status!==1">
+				<button @click="doPrePage" :class="{active:parm.page_index===1}">上一页</button>
+				<button @click="doNextPage" :class="{active:nextPageStatus===false}">下一页</button>
+			</div>
+		</div>
+	</article>
+</body>
+</html>

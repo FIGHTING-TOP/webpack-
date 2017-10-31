@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>zizizi</title>
+	<link type="text/css" href="../../../calendar/css/jquery-ui-1.8.17.custom.css" rel="stylesheet" />
+    <link type="text/css" href="../../../calendar/css/jquery-ui-timepicker-addon.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../../calendar/js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="../../../calendar/js/jquery-ui-1.8.17.custom.min.js"></script>
+	<script type="text/javascript" src="../../../calendar/js/jquery-ui-timepicker-addon.js"></script>
+    <script type="text/javascript" src="../../../calendar/js/jquery-ui-timepicker-zh-CN.js"></script>
+</head>
+<body>
+	<article>
+		<!-- <aside>
+			<% include ../../components/menubar/menubar.ejs %>
+		</aside> -->
+		<div class="tiezi">
+			
+			<!-- 分页 -->
+            <div class="pageSelect"  id="pageNav">
+              <% include ../../components/pageSelect/pageSelect.ejs %>          
+            </div>
+		</div>
+	</article>
+	<script>
+		//日历
+		$(".startTime").datetimepicker({
+	        showSecond: true,
+	        timeFormat: 'hh:mm:ss',
+	        stepHour: 1,
+	        stepMinute: 1,
+	        stepSecond: 1,
+		})
+		$(".endTime").datetimepicker({
+	        showSecond: true,
+	        timeFormat: 'hh:mm:ss',
+	        stepHour: 1,
+	        stepMinute: 1,
+	        stepSecond: 1,
+		})
+	</script>
+</body>
+</html>
